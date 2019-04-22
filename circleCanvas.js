@@ -115,3 +115,5 @@ var cricleChart = function (val) {
 
 // export default drawProgress
 module.exports = cricleChart;
+
+// 使用的时候，保证是new一个新对象，防止绘制重复
